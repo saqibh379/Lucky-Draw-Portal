@@ -1,0 +1,81 @@
+/* .shadow-down {
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.57);
+  -moz-box-shadow: 0px -1px 4px 0px rgba(50, 50, 50, 0.57);
+  box-shadow: 0px -1px 4px 0px rgba(50, 50, 50, 0.57);
+}
+
+.horitzontalScroll {
+  min-width: 100%;
+  min-height: 100px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.custlnk {
+  color: black;
+  text-decoration: none;
+}
+
+.custlnk:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.horitzontalScroll {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+} */
+
+.horitzontalScroll {
+  min-width: 100%;
+  min-height: 100px;
+  display: flex;
+  overflow-x: auto;
+  padding: 20px 15px 30px 15px;
+  border-radius: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #62a2f5 #f1f1f1;
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar for Webkit Browsers */
+
+.horitzontalScroll::-webkit-scrollbar {
+  height: 8px;
+  border-radius: 10px;
+}
+
+.horitzontalScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.horitzontalScroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.horitzontalScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Adding hover effect */
+
+.horitzontalScroll:hover {
+  box-shadow: 0px 4px 8px rgba(50, 50, 50, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+

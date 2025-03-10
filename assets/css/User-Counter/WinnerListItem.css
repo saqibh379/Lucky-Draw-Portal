@@ -1,0 +1,49 @@
+.number-list {
+  margin-top: 20px;
+}
+
+.number-item {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px auto;
+  width: 180px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.remove-btn {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.done-btn {
+  cursor: pointer;
+  color: green;
+}
+
+/* Confetti Addition */
+
+.confetti {
+  position: absolute;
+  font-size: 20px;
+  animation: confettiFall 1s forwards;
+}
+
+@keyframes confettiFall {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px) rotate(360deg);
+  }
+}
+
+/* winner card */
+

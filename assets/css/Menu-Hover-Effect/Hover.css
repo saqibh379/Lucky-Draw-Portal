@@ -1,0 +1,14 @@
+.hover-effect {
+  color: black;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.hover-effect:hover {
+  color: var(--hover-color, #ffffff);
+  background-color: rgba(7, 7, 7, 0.404);
+  /*border-radius: 5px;*/
+  /*Optional: Rounded effect;*/
+  padding: 5px 10px;
+  /*Optional: Better spacing;*/
+}
+

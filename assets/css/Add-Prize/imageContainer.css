@@ -1,0 +1,16 @@
+#image-container {
+  width: 400px;
+  height: 400px;
+  border: 2px dashed #388bf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#image-container img {
+  max-width: 650px;
+  max-height: 400px;
+}
+

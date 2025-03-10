@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  /*overflow: hidden;*/
+}
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+  /*max-height: 700px;*/
+  height: 100%;
+}
+
+/* Custom Scrollbar for Body Only */
+
+/* body ka tag active krdenge jb scroll show krana hoga */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 24px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Custom Scrollbar for Body Only */
+
+body {
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+.one {
+  background: #81234e;
+}
+
+.two {
+  background: #df5252;
+}
+
+.three {
+  background: #ff9a56;
+}
+
+.four {
+  background: #371465;
+}
+
